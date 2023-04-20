@@ -8,6 +8,7 @@ import { NavComponent } from './nav/nav.component';
 import { FontImgComponent } from './font-img/font-img.component';
 import { FooterComponent } from './footer/footer.component';
 import { SeccionComoFuncionaComponent } from './seccion-como-funciona/seccion-como-funciona.component';
+import { VentajasDeElegirnosComponent } from './ventajas-de-elegirnos/ventajas-de-elegirnos.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SeccionComoFuncionaComponent } from './seccion-como-funciona/seccion-co
     FontImgComponent,
     FooterComponent,
     SeccionComoFuncionaComponent,
+    VentajasDeElegirnosComponent,
     
   ],
   imports: [
