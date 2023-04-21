@@ -1,12 +1,12 @@
 <!-- app.component.html -->
 <h2 class="text-center mt-5"><b>Nuestros Servicios</b></h2>
 <div class="container mb-5 mt-3">
-    <p style="font: 20px;">Queremos que encuentres todos los servicios de bienestar para tu mascota en un solo lugar, que tengas la tranquilidad de que tu mascota cuenta con el respaldo de Sura y con una calificación de más 4,2 estrellas de nuestra App.
+    <p style="font-size: 20px;">Queremos que encuentres todos los servicios de bienestar para tu mascota en un solo lugar, que tengas la tranquilidad de que tu mascota cuenta con el respaldo de Sura y con una calificación de más 4,2 estrellas de nuestra App.
     </p>
     <div class="row">
       <div class="col-lg-3 col-md-4 col-6 mb-5" *ngFor="let card of cardData">
         <div class="card">
-        <img [src]="card.imageUrl" class="card-img-top" alt="Card Image">
+        <img [src]="card.imageUrl" class="card-img-top" alt="Card Image" style="opacity: .5;">
         <div class="card-body">
             <h5 class="card-title">{{card.title}}</h5>
             <p class="card-text">{{card.description}}</p>

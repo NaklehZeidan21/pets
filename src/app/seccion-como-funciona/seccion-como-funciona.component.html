@@ -66,19 +66,23 @@
 
     
     <div class="container-fluid">
-        <div class="row justify-content-even">
+        <div class="row">
           <div class="card col-lg-2 col-md-3 col-6" *ngFor="let card of cardsComoFunciona" [ngStyle]="{'opacity': card.opacity}">
             <small class="mt-1"><b>{{card.pasos}}</b></small>
             <div class="card-body">
                 {{ card.text }}
             </div>
+            
         </div>
+        </div>
+
         
-        </div>
-        <button class="btn btn-primary mt-4">Inicia Hoy</button>
+
+
+
     </div>
     
-
+    <button class="btn btn-primary mt-4 col-md-6 col-sm-12" style=" border: solid 1px black; color: black;background:lightblue;">Solicitar un Paseo hoy! </button>
 
     </div>
 </div>

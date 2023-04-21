@@ -2,7 +2,7 @@
 
 .scrolled {
    
-    background: pink; /* Cambia el valor #f00 al color que desees para el fondo */
+    background: lightblue; /* Cambia el valor #f00 al color que desees para el fondo */
     transition: background-color 0.8s ease-out;
   }
 
@@ -10,7 +10,7 @@
 /* Media query for small devices (up to 767px) */
 @media (max-width: 767px) {
     .nav-custom {
-      background-color: pink; /* Change to the desired pink color */
+      background-color: lightblue; /* Change to the desired pink color */
       opacity: 1; /* Ensure opacity is set to 1 for non-transparent navbar */
     }
     .navbar-toggler-icon {

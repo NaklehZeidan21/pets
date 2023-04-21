@@ -10,7 +10,7 @@ export class VentajasDeElegirnosComponent {
     { title: 'Seguro', description: 'Durante el paseo tu mascota estará asegurada.' },
     { title: 'Cobertura', description: 'Tenemos mas de 20,000 aliados en Ecuador.' },
     { title: 'Control', description: 'Podrás ver la ruta del paseo y notificaciones.' },
-    { title: 'Velocidad', description: '5 minutos en recibir la confirmación de un servicio.' },
+    { title: 'Velocidad', description: '5 minutos en recibir la confirmación del servicio.' },
 
     // Add more card data objects as needed
   ];
