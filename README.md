@@ -1,2 +1,2 @@
 # Huellas Felices
-![Alt text](https://pomf2.lain.la/f/p1x4hu7d.png)
+![Alt text](https://pomf2.lain.la/f/9n7dbli0.png)
