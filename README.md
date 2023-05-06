@@ -1,2 +1,2 @@
 # PaseamosPerros XD
-![Alt text](https://pomf2.lain.la/f/u8axd9mh.png)
+![Alt text](https://pomf2.lain.la/f/p39b7vz8.png)
