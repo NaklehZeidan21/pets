@@ -9,6 +9,11 @@ import { FontImgComponent } from './font-img/font-img.component';
 import { FooterComponent } from './footer/footer.component';
 import { SeccionComoFuncionaComponent } from './seccion-como-funciona/seccion-como-funciona.component';
 import { VentajasDeElegirnosComponent } from './ventajas-de-elegirnos/ventajas-de-elegirnos.component';
+import { LoginpaseadorComponent } from './pages/loginpaseador/loginpaseador.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { PagesComponent } from './pages/pages/pages.component';
+import { NopagesfoundComponent } from './pages/nopagesfound/nopagesfound.component';
+
 
 @NgModule({
   declarations: [
@@ -19,6 +24,10 @@ import { VentajasDeElegirnosComponent } from './ventajas-de-elegirnos/ventajas-d
     FooterComponent,
     SeccionComoFuncionaComponent,
     VentajasDeElegirnosComponent,
+    LoginpaseadorComponent,
+    DashboardComponent,
+    PagesComponent,
+    NopagesfoundComponent,
     
   ],
   imports: [
