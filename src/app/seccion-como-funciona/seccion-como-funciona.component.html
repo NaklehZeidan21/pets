@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    .bg-img {
+      background-image: url('https://pomf2.lain.la/f/tjs1k15j.jpg'); /* Replace with your image URL */
+      background-size: cover;
+      background-position: center center;
+      height: 92vh;
+      display: flex;
+      align-items: center;
+      opacity: 90%;
+    }
+
+    .overlay {      
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(1, 3, 19, 0.5);
+    }
+
+    .content {
+      text-align: start;
+      color: #000000;
+      margin-left: 0; /* Update margin-left to 0 */
+    }
+
+    .content h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .content h2 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .content p {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .content button {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+<div class="bg-img">
+    <div class="overlay"></div>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6 col-lg-6">
+            <div class="content"> <!-- Update without offset classes -->
+            <h2>Como Funciona</h2>
+            <p>Sigue estos pasos:</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container-fluid">
+        <div class="row">
+          <div class="card col-lg-2 col-md-3 col-6" *ngFor="let card of cardsComoFunciona" [ngStyle]="{'opacity': card.opacity}">
+            <small class="mt-1"><b>{{card.pasos}}</b></small>
+            <div class="card-body">
+                {{ card.text }}
+            </div>
+            
+        </div>
+        </div>
+
+        
+
+
+
+    </div>
+    
+    <button class="btn btn-primary mt-4 col-md-6 col-sm-12" style=" border: solid 1px black; color: black;background:lightblue;">Solicitar un Paseo hoy! </button>
+
+    </div>
+</div>
+</body>
+
+</html>
